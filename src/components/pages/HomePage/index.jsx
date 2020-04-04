@@ -72,7 +72,9 @@ class HomePage extends React.Component {
                       rel="noopener noreferrer"
                     >
                       <MDBIcon icon="graduation-cap" className="mr-2" />
-                      <span className="font-weight-bold">Official Documentation</span>
+                      <span className="font-weight-bold">
+                        Official Documentation
+                      </span>
                     </a>
                   </MDBRow>
                 </MDBCardBody>
@@ -118,11 +120,11 @@ class HomePage extends React.Component {
                         <MDBCardText>
                           Find more of our amazing work and templates on GitHub!
                         </MDBCardText>
-                        <a 
-                        className="btn btn-outline-mdb-color btn-sm btn-rounded d-inline"
-                        href="https://github.com/aichner"
-                        target="_blank"
-                        rel="noopener noreferrer"
+                        <a
+                          className="btn btn-outline-mdb-color btn-sm btn-rounded d-inline"
+                          href="https://github.com/aichner"
+                          target="_blank"
+                          rel="noopener noreferrer"
                         >
                           More
                         </a>
@@ -141,7 +143,7 @@ class HomePage extends React.Component {
 
 export default HomePage;
 
-/** 
+/**
  * SPDX-License-Identifier: (EUPL-1.2)
  * Copyright © 2019 Werbeagentur Christian Aichner
  */
