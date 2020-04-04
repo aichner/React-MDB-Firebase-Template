@@ -11,14 +11,14 @@
   Advertisement Agency Christian Aichner.
   <br>
   <br>
-  <a href="https://github.com/aichner/React-MDB-Template/issues/new?template=bug_report.md">Report bug</a>
+  <a href="https://github.com/aichner/React-MDB-Firebase-Template/issues/new?template=bug_report.md">Report bug</a>
   ·
-  <a href="https://github.com/aichner/React-MDB-Template/issues/new?template=feature_request.md">Request feature</a>
+  <a href="https://github.com/aichner/React-MDB-Firebase-Template/issues/new?template=feature_request.md">Request feature</a>
   ·
   <a href="https://www.aichner-christian.com/damn/dev">Blog</a>
   <br>
   <br>
-  <a href="https://www.codacy.com/app/aichner/React-MDB-Template">
+  <a href="https://www.codacy.com/app/aichner/React-MDB-Firebase-Template">
     <img src="https://api.codacy.com/project/badge/Grade/579c145ee6cf4d7e8ae7c1c78a13617a" />
   </a>
   <a href="https://liberapay.com/aichner/donate">
@@ -47,8 +47,8 @@
 
 ## [](#quick-start)Quick start
 
-- Clone the repository: `git clone https://github.com/aichner/React-MDB-Template.git react-mdb`
-- Go to the new folder `cd react-mdb`
+- Clone the repository: `git clone https://github.com/aichner/React-MDB-Firebase-Template.git react-mdb-firebase`
+- Go to the new folder `cd react-mdb-firebase`
 - (Optional) For a better experience purchase MDB React Pro and change the source of `"mdbreact"` in the `package.json`
 - Run `npm install`
 - Start with `npm start`
@@ -58,16 +58,16 @@ The demo site will now be accessible at [http://localhost:3000/](http://localhos
 ## [](#bug-and-feature-requests)Bugs and feature requests
 
 Have a bug or a feature request? Please first search for existing and closed issues. If your problem or idea is not
-addressed yet, [please open a new issue](https://github.com/aichner/React-MDB-Template/issues/new/choose).
+addressed yet, [please open a new issue](https://github.com/aichner/React-MDB-Firebase-Template/issues/new/choose).
 
 ## [](#contributing)Contributing
 
-![GitHub last commit](https://img.shields.io/github/last-commit/aichner/React-MDB-Template)
-![GitHub issues](https://img.shields.io/github/issues-raw/aichner/React-MDB-Template)
-![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/aichner/React-MDB-Template?color=green)
+![GitHub last commit](https://img.shields.io/github/last-commit/aichner/React-MDB-Firebase-Template)
+![GitHub issues](https://img.shields.io/github/issues-raw/aichner/React-MDB-Firebase-Template)
+![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/aichner/React-MDB-Firebase-Template?color=green)
 
 Please read through our
-[contributing guidelines](https://github.com/aichner/React-MDB-Template/blob/master/CONTRIBUTING.md). Included are
+[contributing guidelines](https://github.com/aichner/React-MDB-Firebase-Template/blob/master/CONTRIBUTING.md). Included are
 directions for opening issues, coding standards, and notes on development.
 
 All HTML and CSS should conform to the [Code Guide](https://github.com/mdo/code-guide), maintained by
@@ -84,7 +84,7 @@ Get updates on our development and chat/talk with the project maintainers and co
 
 ## [](#versioning)Versioning
 
-![GitHub package.json version](https://img.shields.io/github/package-json/v/aichner/React-MDB-Template)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/aichner/React-MDB-Firebase-Template)
 
 For transparency into our release cycle and in striving to maintain backward compatibility, this repository is
 maintained under [the Semantic Versioning guidelines](https://semver.org/). Sometimes we screw up, but we adhere to
