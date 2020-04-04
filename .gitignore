@@ -13,6 +13,9 @@ package-lock.json
 # MDB
 mdbreact-*
 
+# Firebase configuration
+src/config/fbConfig.js
+
 # Environment variables
 .env
 
