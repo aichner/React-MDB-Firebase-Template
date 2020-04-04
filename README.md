@@ -51,6 +51,7 @@
 - Go to the new folder `cd react-mdb-firebase`
 - (Optional) For a better experience purchase MDB React Pro and change the source of `"mdbreact"` in the `package.json`
 - Run `npm install`
+- Rename your `fbConfig.js.template` to `fbConfig.js` in your `src/config` and import your firebase configuration
 - Start with `npm start`
 
 The demo site will now be accessible at [http://localhost:3000/](http://localhost:3000/).
