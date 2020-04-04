@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.aichner-christian.com/" target="_blank" rel="noopener noreferrer">
-    <img src="https://github.com/aichner/React-MDB-Template/blob/master/src/assets/react-mdb.jpg?raw=true" alt="Agency Logo" height="250" style="max-width: 100%">
+    <img src="https://github.com/aichner/React-MDB-Firebase-Template/blob/master/src/assets/react-mdb-firebase.jpg?raw=true" alt="Agency Logo" height="250" style="max-width: 100%" />
   </a>
 </p>
 
@@ -34,6 +34,7 @@
 
 ## Table of contents
 
+- [Table of contents](#table-of-contents)
 - [Quick start](#quick-start)
 - [Bugs and feature requests](#bugs-and-feature-requests)
 - [Contributing](#contributing)
@@ -41,6 +42,7 @@
 - [Versioning](#versioning)
 - [Creators](#creators)
 - [Thanks](#thanks)
+- [GitHub Arctic Vault](#github-arctic-vault)
 - [Copyright and license](#copyright-and-license)
 
 ## [](#quick-start)Quick start
