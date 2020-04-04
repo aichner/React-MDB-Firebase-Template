@@ -25,12 +25,71 @@ import App from "./App";
 
 import registerServiceWorker from "./registerServiceWorker";
 
-// Render the root component to <div id="root"></div>
-ReactDOM.render( <App /> , document.getElementById("root"));
+//> Redux
+// Store, Middleware, Compose
+import { createStore, applyMiddleware, compose } from "redux";
+// Provider
+import { Provider } from "react-redux";
+// Thunk
+import thunk from "redux-thunk";
+// Reducer
+import rootReducer from "./store/reducers/rootReducer";
 
-registerServiceWorker();
+//> Firestore
+// Cloud Firestore is the Database of Firebase
+import { reduxFirestore, getFirestore } from "redux-firestore";
 
-/** 
+//> Firebase
+// React-Redux interface for Firebase
+import { reactReduxFirebase, getFirebase } from "react-redux-firebase";
+// Firebase config
+import fbInit from "./config/fbInit";
+
+/**
+ * FIREBASE INIT SETTINGS
+ */
+// Automatically load user data to logged in user (realtime functionality). Sync user data to user profile.
+const syncUserToAuth = true;
+/**
+ * Set user collection
+ * The name of the collection can vary from project to project. Check Firebase for information.
+ * This tells Redux Firebase where the users are being stored.
+ */
+const userCollection = "partners";
+// Enable firebase initializing before DOM rendering
+const onlyLoadWhenReady = true;
+// Create Redux data-store and store it in store and apply thunk middleware
+const store = createStore(
+  rootReducer,
+  compose(
+    applyMiddleware(
+      thunk.withExtraArgument({
+        getFirebase, // Firebase
+        getFirestore, // Cloud Firestore Database
+      })
+    ),
+    reduxFirestore(fbInit),
+    reactReduxFirebase(fbInit, {
+      useFirestoreForProfile: syncUserToAuth,
+      userProfile: userCollection,
+      attachAuthIsReady: onlyLoadWhenReady,
+    })
+  )
+);
+
+// Wait until firebase is initialized, then render the DOM
+store.firebaseAuthIsReady.then(() => {
+  // Render the DOM
+  ReactDOM.render(
+    <Provider store={store}>
+      <App />
+    </Provider>,
+    document.getElementById("root")
+  );
+  registerServiceWorker();
+});
+
+/**
  * SPDX-License-Identifier: (EUPL-1.2)
  * Copyright © 2019 Werbeagentur Christian Aichner
  */
