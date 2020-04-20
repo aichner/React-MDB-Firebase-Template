@@ -17,6 +17,7 @@
 - [Pull Requests](#pull-requests)
 - [Coding Style](#coding-style)
 - [Versioning](#versioning)
+- [Creators](#creators)
 
 ## [](#commits)Commits
 
@@ -87,7 +88,8 @@ let foo = {
 // This is a single line comment. It has multiple sentences.
 ```
 
-- Use regions if you have more than 3 distinct areas in your file. (Such as imports, classes, type-declarations, exports, …). This helps to organize the file.
+- Use regions if you have more than 3 distinct areas in your file.
+- (Such as imports, classes, type-declarations, exports, …). This helps to organize the file.
 
 ```
 //#region > Classes
@@ -120,6 +122,13 @@ return a + b === 3 ? true : false;
 - Each merge of a branch to master should have a suitable change in the version if applicable.
 - Each change in version has to be documented with the creation of a new release, including a changelog.
 - Always use semantic versioning. (Major, Minor, Patch) See <https://semver.org/> for more information.
+
+## [](#creators)Creators
+
+This coding style and GitHub guidelines is a product of years of coding experience within the team of the Agency,
+including **Christian Aichner** [@Aichnerc](https://github.com/Aichnerc) and **Florian Kleber** [@kleberbaum](https://github.com/kleberbaum).
+
+Notable contributors to our coding style: **Nico Schett** [@schettn](https://github.com/schettn), **David Pinterics** [@pinterid](https://github.com/pinterid)
 
 SPDX-License-Identifier: (EUPL-1.2)
 Copyright © 2019-2020 Werbeagentur Christian Aichner
