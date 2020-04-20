@@ -4,41 +4,50 @@
   </a>
 </p>
 
-<h3 align="center">Official contributing guidelines</h3>
+<h3 align="center">Agency Contributing Guidelines</h3>
 
 <p align="center">
   A code of conduct is a set of rules outlining the norms, rules, and responsibilities of, 
-  and or proper practices for, an individual.
+  and or proper practices for, an individual. This applies to all people contributing to this repository in any form.
 </p>
 
 ## Table of contents
+- [Table of contents](#table-of-contents)
 - [Commits](#commits)
 - [Pull Requests](#pull-requests)
+- [Versioning](#versioning)
 
 
 ## [](#commits)Commits
 
-- All commits may start with an uppercase letter
-- All commits must be written in present tense
-- All commits may be multiline commits
-- The commit headline must have a maximum of 71 chars
-- The commit message must have a maxmum of 71 chars per line
-- If possible, include link to online topic as reference (Ref: )
-- Detailed explanation why the commit was done
-- Include reference to issue if one exists
-- All commits must be verified
-- No commits, under no circumstances, should be directly pushed to master (deadly)
-- Each commit should only serve one purpose
+- All commits must be verified. [Learn how to sign commits using GitKraken](https://support.gitkraken.com/git-workflows-and-extensions/commit-signing-with-gpg/).
+- All commit summaries must start with an uppercase letter.
+- All commit summaries must be written in present tense.
+- The commit summary and description are mandatory.
+- All commit descriptions must be written in past tense.
+- The commit headline must have a maximum of 71 chars.
+- The commit message must have a maxmium of 71 chars per line.
+- If possible, include link to online topic as reference (Ref: ).
+- The purpose of the commit and your intentions behind it must be clear.
+- Include references to issues if applicable.
+- No commit, under no circumstances, should be pushed to master directly.
+- Each commit should only serve one distinct purpose.
 
 ## [](#pull-requests)Pull Requests
 
-- Each pull request should only follow one topic
-- You must follow the guidelines / template
-- Each pull request must answer one more more issues
-- Each pull request must have at least one reviewer
-- Each pull request must have at least one assigned developers
-- Each pull request must have a label
-- Each pull request should be merged by a reviewer
+- Each pull request should only follow one general topic.
+- You must follow the template for creating a pull request.
+- Each pull request must have at least one assigned developer.
+- Each pull request must have a label. If issues are present, it has to include those at a minimum.
+- Each pull request should be merged by a reviewer.
+- A pull request may only be merged if the outright majority has approved the pull request.
+- Each pull request should include linked issues. Although it is not mandatory, it helps to track the thoughts of the developers and is therefore strongly advised.
+
+## [](#versioning)Versioning
+
+- Each merge of a branch to master should have a suitable change in the version if applicable.
+- Each change in version has to be documented with the creation of a new release, including a changelog.
+- Always use semantic versioning. (Major, Minor, Patch) See <https://semver.org/> for more information.
 
 
 SPDX-License-Identifier: (EUPL-1.2)
