@@ -41,7 +41,7 @@
 - Each pull request must have at least one assigned developer.
 - Each pull request must have a label. If issues are present, it has to include those at a minimum.
 - Each pull request should be merged by a reviewer.
-- A pull request may only be merged if the outright majority has approved the pull request.
+- Each pull request has to pass all checks and reviews before merging.
 - Each pull request should include linked issues. Although it is not mandatory, it helps to track the thoughts of the developers and is therefore strongly advised.
 
 ## [](#coding-style)Coding Style
