@@ -1,7 +1,8 @@
+//#region > Imports
 //> React
 // Contains all the functionality necessary to define React components
 import React from "react";
-// Redirect from Router
+// DOM bindings for React Router
 import { Redirect, withRouter } from "react-router-dom";
 
 //> Redux
@@ -30,11 +31,14 @@ import {
 
 //> Images
 import IMGlogo from "../../../assets/agency-small.png";
+//#endregion
 
-//> Configuration
+//#region > Config
 // The route of your profile page (include /)
 const profileRoute = "/profile";
+//#endregion
 
+//#region > Components
 class LoginPage extends React.Component {
   state = {
     email: "",
@@ -144,7 +148,9 @@ class LoginPage extends React.Component {
     );
   }
 }
+//#endregion
 
+//#region > Functions
 const mapStateToProps = (state) => {
   return {
     authErrorDetails: state.auth.authErrorDetails,
@@ -157,13 +163,16 @@ const mapDispatchToProps = (dispatch) => {
     signIn: (credentials) => dispatch(signIn(credentials)),
   };
 };
+//#endregion
 
+//#region > Exports
 export default connect(
   mapStateToProps,
   mapDispatchToProps
 )(withRouter(LoginPage));
+//#endregion
 
 /**
  * SPDX-License-Identifier: (EUPL-1.2)
- * Copyright © 2019 Christian Aichner
+ * Copyright © 2020 Werbeagentur Christian Aichner
  */

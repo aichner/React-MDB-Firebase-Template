@@ -1,3 +1,4 @@
+//#region > Imports
 //> React
 // Contains all the functionality necessary to define React components
 import React from "react";
@@ -7,10 +8,11 @@ import React from "react";
 import {
   MDBContainer,
   MDBBtn,
-  MDBAlert,
   MDBIcon,
 } from "mdbreact";
+//#endregion
 
+//#region > Dummy Data
 //> Information
 // About
 const about = {
@@ -21,7 +23,9 @@ const about = {
   city: "City",
   mail: "mail@mail.com"
 }
+//#endregion
 
+//#region > Components
 class MessagePage extends React.Component {
   render() {
     return (
@@ -100,8 +104,11 @@ class MessagePage extends React.Component {
     );
   }
 }
+//#endregion
 
+//#region > Exports
 export default MessagePage;
+//#endregion
 
 /**
  * SPDX-License-Identifier: (EUPL-1.2)
