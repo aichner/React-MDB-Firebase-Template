@@ -11,7 +11,7 @@ package-lock.json
 /build
 
 # MDB
-mdbreact-*
+mdb*
 
 # Firebase configuration
 src/config/fbConfig.js
@@ -27,4 +27,4 @@ src/config/fbConfig.js
 *.log*
 
 # SPDX-License-Identifier: (EUPL-1.2)
-# Copyright © 2019-2020 Werbeagentur Christian Aichner
+# Copyright © 2020 Werbeagentur Christian Aichner

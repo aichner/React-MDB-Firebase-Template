@@ -1,3 +1,4 @@
+//#region > Imports
 //> React
 // Contains all the functionality necessary to define React components
 import React from "react";
@@ -44,7 +45,9 @@ import { reduxFirestore, getFirestore } from "redux-firestore";
 import { reactReduxFirebase, getFirebase } from "react-redux-firebase";
 // Firebase config
 import fbInit from "./config/fbInit";
+//#endregion
 
+//#region > Config
 /**
  * FIREBASE INIT SETTINGS
  */
@@ -76,7 +79,9 @@ const store = createStore(
     })
   )
 );
+//#endregion
 
+//#region > Render
 // Wait until firebase is initialized, then render the DOM
 store.firebaseAuthIsReady.then(() => {
   // Render the DOM
@@ -88,8 +93,9 @@ store.firebaseAuthIsReady.then(() => {
   );
   registerServiceWorker();
 });
+//#endregion
 
 /**
  * SPDX-License-Identifier: (EUPL-1.2)
- * Copyright © 2019-2020 Werbeagentur Christian Aichner
+ * Copyright © 2020 Werbeagentur Christian Aichner
  */

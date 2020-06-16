@@ -1,3 +1,4 @@
+//#region > Imports
 //> React
 // Contains all the functionality necessary to define React components
 import React from "react";
@@ -6,20 +7,16 @@ import { Link } from "react-router-dom";
 
 //> MDB
 // "Material Design for Bootstrap" is a great UI design framework
-import {
-  MDBFooter,
-  MDBRow,
-  MDBCol,
-  MDBContainer,
-  MDBIcon,
-} from "mdbreact";
+import { MDBFooter, MDBRow, MDBCol, MDBContainer, MDBIcon } from "mdbreact";
 
 //> CSS
 import "./footer.scss";
 
 //> Images
 import logoImg from "../../../assets/agency-small.png";
+//#endregion
 
+//#region > Components
 class Footer extends React.Component {
   state = {
     pathBack: "",
@@ -54,11 +51,7 @@ class Footer extends React.Component {
               </Link>
             </MDBCol>
             <MDBCol md="2" className="my-3 text-center">
-              <img
-                src={logoImg}
-                alt="Naturvertrieb Logo"
-                className="img-fluid"
-              />
+              <img src={logoImg} alt="Logo" className="img-fluid" />
             </MDBCol>
             <MDBCol md="3" className="text-center">
               <Link to="contact">
@@ -125,10 +118,13 @@ class Footer extends React.Component {
     );
   }
 }
+//#endregion
 
+//#region > Exports
 export default Footer;
+//#endregion
 
 /**
  * SPDX-License-Identifier: (EUPL-1.2)
- * Copyright © 2019-2020 Werbeagentur Christian Aichner
+ * Copyright © 2020 Werbeagentur Christian Aichner
  */
