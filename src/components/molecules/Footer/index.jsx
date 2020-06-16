@@ -7,13 +7,7 @@ import { Link } from "react-router-dom";
 
 //> MDB
 // "Material Design for Bootstrap" is a great UI design framework
-import {
-  MDBFooter,
-  MDBRow,
-  MDBCol,
-  MDBContainer,
-  MDBIcon,
-} from "mdbreact";
+import { MDBFooter, MDBRow, MDBCol, MDBContainer, MDBIcon } from "mdbreact";
 
 //> CSS
 import "./footer.scss";
@@ -57,11 +51,7 @@ class Footer extends React.Component {
               </Link>
             </MDBCol>
             <MDBCol md="2" className="my-3 text-center">
-              <img
-                src={logoImg}
-                alt="Logo"
-                className="img-fluid"
-              />
+              <img src={logoImg} alt="Logo" className="img-fluid" />
             </MDBCol>
             <MDBCol md="3" className="text-center">
               <Link to="contact">

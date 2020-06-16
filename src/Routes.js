@@ -22,10 +22,10 @@ class Routes extends React.Component {
         <Route exact path="/" component={HomePage} />
         <Route exact path="/login" component={LoginPage} />
         <Route exact path="/profile" component={ProfilePage} />
-        <Route 
-        exact
-        path='/about'
-        render={(props) => <MessagePage {...props}/>}
+        <Route
+          exact
+          path="/about"
+          render={(props) => <MessagePage {...props} />}
         />
         <Route
           render={function () {
@@ -39,7 +39,7 @@ class Routes extends React.Component {
 
 export default Routes;
 
-/** 
+/**
  * SPDX-License-Identifier: (EUPL-1.2)
  * Copyright © 2020 Werbeagentur Christian Aichner
  */
