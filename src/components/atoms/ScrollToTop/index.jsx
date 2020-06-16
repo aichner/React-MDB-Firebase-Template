@@ -29,7 +29,6 @@ class ScrollToTop extends React.Component {
 //#endregion
 
 //#region > Exports
-//> Default Class
 export default withRouter(ScrollToTop);
 //#endregion
 

@@ -62,7 +62,6 @@ class ProfilePage extends React.Component {
 
 //#region > Functions
 const mapStateToProps = (state) => {
-  console.log(state);
   return {
     auth: state.firebase.auth,
     profile: state.firebase.profile,
