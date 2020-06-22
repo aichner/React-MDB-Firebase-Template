@@ -10,7 +10,7 @@ focus and be more efficient, it also improves the code quality tremendously.
 All HTML and CSS should conform to the [Code Guide](https://github.com/mdo/code-guide), maintained by [Mark Otto](https://github.com/mdo).
 
 The following rules are one of the most important.
-- Try to keep the maximum line length below `80`. The maximum line length is `120`.
+- Try to keep the line length below `80`. The maximum line length is `120`.
 
 **Bad**
 ```typescript
