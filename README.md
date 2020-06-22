@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.aichner-christian.com/" target="_blank" rel="noopener noreferrer">
-    <img src="https://github.com/aichner/React-MDB-Firebase-Template/blob/master/src/assets/react-mdb-firebase.jpg?raw=true" alt="Agency Logo" height="250" style="max-width: 100%" />
+    <img src="https://github.com/aichner/React-MDB-Firebase-Template/blob/master/src/assets/react-mdb-firebase.jpg?raw=true" alt="Agency Logo" height="150" style="max-width: 100%" />
   </a>
 </p>
 
@@ -8,14 +8,12 @@
 
 <p align="center">
   This repository serves as an entry point for future React MDB Basic projects of the
-  Advertisement Agency Christian Aichner.
+  Advertisement Agency Christian Aichner and beyond.
   <br>
   <br>
   <a href="https://github.com/aichner/React-MDB-Firebase-Template/issues/new?template=bug_report.md">Report bug</a>
   ·
   <a href="https://github.com/aichner/React-MDB-Firebase-Template/issues/new?template=feature_request.md">Request feature</a>
-  ·
-  <a href="https://www.aichner-christian.com/damn/dev">Blog</a>
   <br>
   <br>
   <a href="https://www.codacy.com/app/aichner/React-MDB-Firebase-Template">
@@ -27,10 +25,6 @@
 </p>
 
 <a href="https://liberapay.com/aichner/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a>
-<a href="https://archiveprogram.github.com/" target="_blank" rel="noopener noreferrer">
-  <img src="https://www.aichner-christian.com/img/logo/code_vault.jpg" style="margin-top: 0.5rem" alt="Mars Time Logo" height="30">
-</a>
-
 
 ## Table of contents
 
@@ -42,19 +36,34 @@
 - [Versioning](#versioning)
 - [Creators](#creators)
 - [Thanks](#thanks)
-- [GitHub Arctic Vault](#github-arctic-vault)
 - [Copyright and license](#copyright-and-license)
 
 ## [](#quick-start)Quick start
 
-- Clone the repository: `git clone https://github.com/aichner/React-MDB-Firebase-Template.git react-mdb-firebase`
-- Go to the new folder `cd react-mdb-firebase`
-- (Optional) For a better experience purchase MDB React Pro and change the source of `"mdbreact"` in the `package.json`
-- Run `npm install`
-- Rename your `fbConfig.js.template` to `fbConfig.js` in your `src/config` and import your firebase configuration
-- Start with `npm start`
+Several quick start options are available:
 
-The demo site will now be accessible at [http://localhost:3000/](http://localhost:3000/).
+-   Clone the repo: `https://github.com/aichner/React-MDB-Firebase-Template.git`
+
+### This project requires the MDB React Pro license and its library
+
+You can eigther:
+
+Purchase MDB React Pro
+
+-   Download the zip folder and extract it
+-   Move the `mdbreact-X.XX.X.tgz` to the local copy of this repository
+
+or use MDB React Free
+
+-   Update "mdbreact" in `package.json` to the latest version of MDB (such as 4.19.0)
+-   After installing, make sure to exclude all elements that require MDB React Pro
+
+How to start this application?
+
+-   Use `npm install` to install all dependencies
+-   Start a local copy of the docs site with `npm start`
+-   Or build a local copy of the library with `npm run build`
+
 
 ## [](#bug-and-feature-requests)Bugs and feature requests
 
@@ -93,22 +102,23 @@ those rules whenever possible.
 
 ## [](#creators)Creators
 
-**Christian Aichner**
-
-- <https://twitter.com/realaichner>
-- <https://www.facebook.com/aichner.christian>
-- <https://github.com/Aichnerc>
+<table border="0">
+	<tr>
+    		<td>
+			<a href="https://github.com/aichnerc">
+				<img src="https://avatars.githubusercontent.com/aichnerc?s=100" alt="Avatar aichnerc">
+			</a>
+		</td>
+	</tr>
+  <tr>
+    		<td><a href="https://github.com/aichnerc">Christian Aichner</a></td>
+	</tr>
+</table>
 
 ## [](#thanks)Thanks
 
 We do not have any external contributors yet, but if you want your name to be here, feel free
 to [contribute to our project](#contributing).
-
-## [](#vault)GitHub Arctic Vault
-This repository is ready for the GitHub Archive Program and therefore meets our GitHub guidelines and 2020 code style.
-<a href="https://archiveprogram.github.com/" target="_blank" rel="noopener noreferrer">
-  <img src="https://www.aichner-christian.com/img/logo/code_vault.jpg" style="margin-top: 0.5rem" alt="Mars Time Logo" height="35">
-</a>
 
 ## [](#copyright-and-license)Copyright and license
 
