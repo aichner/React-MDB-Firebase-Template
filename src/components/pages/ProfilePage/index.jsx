@@ -3,11 +3,7 @@
 // Contains all the functionality necessary to define React components
 import React from "react";
 // Router
-import { Link, Redirect, withRouter } from "react-router-dom";
-
-//> Additional modules
-// Firebase
-import firebase from "firebase";
+import { Redirect, withRouter } from "react-router-dom";
 
 //> Redux
 // Connect
@@ -33,7 +29,7 @@ class ProfilePage extends React.Component {
   state = {};
 
   render() {
-    const { auth, profile, users } = this.props;
+    const { auth, profile } = this.props;
     // Check if firebase has loaded profile data
     if (!profile.isLoaded) {
       return (
