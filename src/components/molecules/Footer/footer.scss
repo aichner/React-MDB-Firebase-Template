@@ -1,5 +1,6 @@
 .page-footer {
   background: rgba(0, 0, 0, 0.1) !important;
+
   li {
     color: #212529;
     background: rgba(0, 0, 0, 0.1);
@@ -8,16 +9,20 @@
     align-items: center;
     margin-bottom: 0.4rem;
     margin-bottom: 0.4rem;
+
     &:hover {
       background: rgba(0, 0, 0, 0.2);
     }
+
     .badge {
       box-shadow: none;
     }
   }
+
   img {
     max-height: 40px;
   }
+
   .footer-copyright {
     background: rgba(0, 0, 0, 0.7) !important;
   }
@@ -25,5 +30,5 @@
 
 /** 
  * SPDX-License-Identifier: (EUPL-1.2)
- * Copyright © 2020 Werbeagentur Christian Aichner
+ * Copyright © 2021 Christian Aichner
  */
