@@ -4,14 +4,12 @@
 import React from "react";
 // React Router
 import { Link } from "react-router-dom";
-
 //> MDB
 // "Material Design for Bootstrap" is a great UI design framework
 import { MDBFooter, MDBRow, MDBCol, MDBContainer, MDBIcon } from "mdbreact";
 
 //> CSS
 import "./footer.scss";
-
 //> Images
 import logoImg from "../../../assets/agency-small.png";
 //#endregion

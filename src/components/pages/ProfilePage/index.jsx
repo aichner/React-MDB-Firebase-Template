@@ -4,24 +4,15 @@
 import React from "react";
 // Router
 import { Redirect, withRouter } from "react-router-dom";
-
 //> Redux
 // Connect
 import { connect } from "react-redux";
-// Actions
-import { signOut } from "../../../store/actions/authActions";
-
 //> MDB
 // "Material Design for Bootstrap" is a great UI design framework
 import { MDBContainer, MDBBtn } from "mdbreact";
-//> Components
-// To be added here
 
-//> CSS
-// To be added here
-
-//> Images
-// To be added here
+// Actions
+import { signOut } from "../../../store/actions/authActions";
 //#endregion
 
 //#region > Components

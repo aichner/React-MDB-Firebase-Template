@@ -6,14 +6,8 @@ import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 
 //> Components
-/**
- * Footer: Global Footer
- * Navbar: Global navigation bar
- */
 import { Footer, Navbar, CookieModal } from "./components/molecules";
-// Starts the page on top when reloaded or redirected
 import { ScrollToTop } from "./components/atoms";
-
 //> Routes
 import Routes from "./Routes";
 //#endregion
