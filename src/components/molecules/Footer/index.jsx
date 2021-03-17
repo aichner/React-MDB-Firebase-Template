@@ -4,14 +4,12 @@
 import React from "react";
 // React Router
 import { Link } from "react-router-dom";
-
 //> MDB
 // "Material Design for Bootstrap" is a great UI design framework
 import { MDBFooter, MDBRow, MDBCol, MDBContainer, MDBIcon } from "mdbreact";
 
 //> CSS
 import "./footer.scss";
-
 //> Images
 import logoImg from "../../../assets/agency-small.png";
 //#endregion
@@ -126,5 +124,5 @@ export default Footer;
 
 /**
  * SPDX-License-Identifier: (EUPL-1.2)
- * Copyright © 2020 Werbeagentur Christian Aichner
+ * Copyright © 2021 Christian Aichner
  */

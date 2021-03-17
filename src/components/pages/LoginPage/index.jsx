@@ -4,13 +4,9 @@
 import React from "react";
 // DOM bindings for React Router
 import { Redirect, withRouter } from "react-router-dom";
-
 //> Redux
 // Connect
 import { connect } from "react-redux";
-// Actions
-import { signIn } from "../../../store/actions/authActions";
-
 //> MDB
 // "Material Design for Bootstrap" is a great UI design framework
 import {
@@ -22,12 +18,8 @@ import {
   MDBIcon,
 } from "mdbreact";
 
-//> Components
-// To be added here
-
-//> CSS
-// To be added here
-
+//> Actions
+import { signIn } from "../../../store/actions/authActions";
 //> Images
 import IMGlogo from "../../../assets/agency-small.png";
 //#endregion
@@ -178,5 +170,5 @@ export default connect(
 
 /**
  * SPDX-License-Identifier: (EUPL-1.2)
- * Copyright © 2020 Werbeagentur Christian Aichner
+ * Copyright © 2021 Christian Aichner
  */
